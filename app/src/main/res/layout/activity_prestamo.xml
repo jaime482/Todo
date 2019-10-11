@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/fondos"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculo de prestamo"
+        android:textSize="10pt"
+        android:background="@android:color/holo_purple"
+        android:textColor="@android:color/white"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Monto:"
+        android:textSize="8pt"
+        android:textColor="@android:color/white"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="8pt"
+        android:background="@android:color/white"
+        android:hint=""
+        android:inputType="numberDecimal"
+        android:id="@+id/etxMonto"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interes:"
+        android:textColor="@android:color/white"
+        android:textSize="8pt"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="8pt"
+        android:hint=""
+        android:background="@android:color/white"
+        android:inputType="numberDecimal"
+        android:id="@+id/etxInteres"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Plazo(Meses):"
+        android:textSize="8pt"
+        android:textColor="@android:color/white"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="8pt"
+        android:hint=""
+        android:background="@android:color/white"
+        android:inputType="numberDecimal"
+        android:id="@+id/etxPlazo"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="8pt"
+        android:textColor="@android:color/white"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:textSize="8pt"
+        android:background="@android:color/holo_blue_light"
+        android:id="@+id/btnCalcular"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="8pt"
+        android:textColor="@android:color/white"
+        android:id="@+id/txvResultado1"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Regresar"
+        android:textSize="8pt"
+        android:background="@android:color/holo_red_light"
+        android:id="@+id/btnRegresar"/>
+
+
+</LinearLayout>
